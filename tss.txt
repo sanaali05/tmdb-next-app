@@ -1,0 +1,49 @@
+0. Use Navigation bar
+1. Trending Movies/TV Shows
+2. User should able to search Movies/TV Shows
+3. User should able to see deails of Movies/TV shows, able to see trailer in present
+
+FINF API KEY
+https://www.themoviedb.org/settings/api
+
+API LINKS TO USE
+https://developers.themoviedb.org/3/movies/get-movie-details
+
+image paths
+https://image.tmdb.org/t/p/w500/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=YOUR_API_KEY
+
+{`https://image.tmdb.org/t/p/w500/${item.backdrop_path}`}
+
+details of application:-  tmdb - database of imbd movies 
+
+step:1 trending dikhana hai (movies/tv shows) - ye scrollable dikha rha hai app ek k niche ek dikha skte hai , 
+step:2 movies - with these 4 things 
+step:3 tv shows - with these 4 things 
+
+. make UI according to yourself 
+. user could search movies and tv show , exclude the people & more 
+. user could see details of Movies/tv shows , and able to see trailer in present
+
+How to get the data ? 
+
+step : 1 login tmdb (username - sanaali0526 , password- VG.XyeaasgMn3nd), API Key- b6330e59d17035fa955abd01c083646b , 
+API Read Access Token - eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNjMzMGU1OWQxNzAzNWZhOTU1YWJkMDFjMDgzNjQ2YiIsInN1YiI6IjY0ZmFjZmJjZmZjOWRlMDBjNGEyY2Q2MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.OLmHKCjuifRzKD2MGeR1IZHoKyT-QHJ_CRHKDEtiYOY
+
+step :2 api authentication - https://api.themoviedb.org/3/movie/now_playing?api_key=b6330e59d17035fa955abd01c083646b
+
+you can use context api also to centralise the data link k agee apni api key laga do to vo alid ho jayegi 
+
+
+making of TMDB 
+
+calling of API
+step 1: make utils folder in level of app , inside that make a axios.js file 
+
+for search feature 
+https://api.themoviedb.org/3/search/movie?api_key=b6330e59d17035fa955abd01c083646b&&query=war
+
+
+1800 419 4426 customer support of blue host 
+hcv.npv.mybluehostin.me primary domain 

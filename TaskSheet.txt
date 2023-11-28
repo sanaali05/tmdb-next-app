@@ -1,0 +1,15 @@
+0. Use Navigation bar
+1. Trending Movies/TV Shows
+2. User should able to search Movies/TV Shows
+3. User should able to see deails of Movies/TV shows, able to see trailer in present
+
+FINF API KEY
+https://www.themoviedb.org/settings/api
+
+API LINKS TO USE
+https://developers.themoviedb.org/3/movies/get-movie-details
+
+image paths
+https://image.tmdb.org/t/p/w500/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=YOUR_API_KEY
